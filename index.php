@@ -11,12 +11,12 @@
         <div class='head-left'>
             <img src='img/logo.jpg' style='width: 200px; height: 200px'></img>
         </div>
-
+  
         <div class='head-right'>
             <h1>Karma</h1>
         </div>
     </div>
-
+    
     <div class='main'>
         <input type='checkbox' id='menubox' class='menucheck'>
         <div class='menu'>
@@ -27,11 +27,17 @@
                 <li><a href='#'>Menu3</a></li>
             </ul>
         </div>
+
+        
     </div>
-    
+ 
+    <div class='content'>
+        <p>Test</p>
+    </div>
+
     <div class='foot'>
         <p>foot</p>
-    </div>
-    
+    </div>    
+
 </body>
 </html>

@@ -1,22 +1,21 @@
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: Arial, Helvetica, sans-serif;   
 }
 
 .head {
     display: flex;
     align-items: center;
+    /*background-color: lightpink;*/
 }
 
-.head-left {
-    width: 200px;
-    height: 200px;
+.head img {
     border-radius: 100%;
+    margin: 5px;
 }
 
 .head-right {
-    margin: 50px;
+    margin-left: 50px;
 }
 
 
@@ -36,6 +35,10 @@ body {
 @media  only screen and (max-width: 500px) {
     .main {
         background-image: url('img/logo.jpg');
+    }
+
+    .foot {
+        display: none;
     }
   }
 
@@ -69,7 +72,20 @@ body {
     transform: translate3d(0, 0, 0);
 }
 
+.content{
+    top:40%;
+    left: 20%;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-color: lightblue;
+}
 
-.foot {
-    /*background-color: lightgreen;*/
+.foot{
+    bottom:20%;
+    right: 10%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
 }
