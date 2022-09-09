@@ -18,15 +18,15 @@
     </div>
 
     <div class='main'>
-            <input type='checkbox' id='menubox' class='menucheck'>
-            <div class='menu'>
-                <label class='toggle' for='menubox'></label>
-                <ul>
-                    <li><a href='#'>Menu1</a></li>
-                    <li><a href='#'>Menu2</a></li>
-                    <li><a href='#'>Menu3</a></li>
-                </ul>
-            </div>
+        <input type='checkbox' id='menubox' class='menucheck'>
+        <div class='menu'>
+            <label class='toggle' for='menubox'></label>
+            <ul>
+                <li><a href='#'>Menu1</a></li>
+                <li><a href='#'>Menu2</a></li>
+                <li><a href='#'>Menu3</a></li>
+            </ul>
+        </div>
     </div>
     
     <div class='foot'>

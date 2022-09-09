@@ -30,16 +30,17 @@ body {
     background-image: url('img/background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-
+    opacity: 0.5;
 }
 
 @media  only screen and (max-width: 500px) {
-    .background {
+    .main {
         background-image: url('img/logo.jpg');
     }
   }
 
 .menu {
+    opacity: 1;
     position: absolute;
     display: block;
     top: 0;
