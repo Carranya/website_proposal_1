@@ -1,12 +1,16 @@
 
 body {
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .head {
     display: flex;
     align-items: center;
-    /*background-color: lightpink;*/
+    background-color: darkblue;
+}
+
+.head h1, h2, p {
+    color: white;
 }
 
 .head img {
@@ -14,8 +18,16 @@ body {
     margin: 5px;
 }
 
+.head-center {
+    margin: 0 50px;
+    width: auto;
+}
+
 .head-right {
-    margin-left: 50px;
+    position: absolute;
+    width: 200px;
+    right: 100px;
+
 }
 
 
@@ -31,9 +43,12 @@ body {
     background-size: 100%;
 }
 
-@media  only screen and (max-width: 500px) {
+@media  only screen and (max-width: 925px) {
+    .head-right {
+        display: none;
+    }
     .main {
-        background-image: url('img/logo.jpg');
+        background-image: url('img/smartphonebackground.jpg');
     }
 
     .foot {
@@ -42,7 +57,7 @@ body {
   }
 
 .menu {
-    opacity: 0.6;
+    opacity: 0.8;
     position: absolute;
     display: block;
     top: 0;
@@ -53,13 +68,20 @@ body {
     background-color: lightskyblue;
 }
 
+
 .menu a {
+    line-height: 2em;
     text-decoration: none;
     font-size: 1.2em;
+    color: white;
+}
+
+.menu a:hover {
+    color: darkblue;
 }
 
 ul, li {
-    list-style-type: none;
+    list-style: none;
 }
 
 .toggle {
@@ -83,7 +105,14 @@ ul, li {
     top:40%;
     left: 20%;
     position: absolute;
-    width: 60%;
     background-color: #ffffff;
     opacity: 0.6;
+}
+
+.about {
+    display: flex;
+}
+
+.about-pic img {
+    border: 1px solid black;
 }
