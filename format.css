@@ -29,7 +29,6 @@ body {
     background-image: url('img/background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    opacity: 0.5;
 }
 
 @media  only screen and (max-width: 500px) {
@@ -43,16 +42,24 @@ body {
   }
 
 .menu {
-    opacity: 1;
+    opacity: 0.6;
     position: absolute;
     display: block;
     top: 0;
     left: 0;
     width: 200px;
-    height: 50%;
     transform: translate3d(-200px, 0, 0);
     transition: transform 1s;
     background-color: lightskyblue;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+ul, li {
+    list-style-type: none;
 }
 
 .toggle {
@@ -77,15 +84,6 @@ body {
     left: 20%;
     position: absolute;
     width: 60%;
-    height: 60%;
-    background-color: lightblue;
-}
-
-.foot{
-    bottom:20%;
-    right: 10%;
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color: lightgreen;
+    background-color: #ffffff;
+    opacity: 0.6;
 }

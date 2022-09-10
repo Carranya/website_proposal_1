@@ -26,18 +26,13 @@
                 <li><a href='#'>Menu2</a></li>
                 <li><a href='#'>Menu3</a></li>
             </ul>
-        </div>
-
-        
+        </div> 
     </div>
+    
  
     <div class='content'>
         <p>Test</p>
     </div>
-
-    <div class='foot'>
-        <p>foot</p>
-    </div>    
-
+  
 </body>
 </html>
