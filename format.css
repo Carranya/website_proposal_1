@@ -130,6 +130,17 @@ ul, li {
     padding: 20px;
 }
 
+.praxis {
+    display: inline;
+    margin: 0 auto;
+}
+
+.praxis img {
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid darkblue;
+}
+
 
 @media  only screen and (max-width: 925px) {
     .head-right {

@@ -40,8 +40,8 @@
                 <li><a href='index.php?page=prices'>Preise</a></li>
                 <li><a href='index.php?page=praxis'>Praxis</a></li>
                 <li><a href='index.php?page=about'>Über mich</a></li>
-                <li><a href='index.php?page=contacts'>Kontakt</a></li>
-                <li><a href='index.php?page=links'>Links</a></li>
+                <li><a href='index.php?page=contacts'>Kontakt / Öffnungszeiten</a></li>
+                <li><a href='index.php?page=links'>Anfahrt</a></li>
             </ul>
         </div> 
     </div>
