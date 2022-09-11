@@ -17,12 +17,12 @@
         </div>
   
         <div class='head-center'>
-            <h1>Karma Praxis</h1>
-            <h2>Meditationen und Massagen</h2>
+            <h1 style='color: white'>Karma Praxis</h1>
+            <h2 style='color: white'>Meditationen und Massagen</h2>
         </div>
 
         <div class='head-right'>
-            <p>Muster Musterfrau<br>
+            <p style='color: white'>Muster Musterfrau<br>
             Musterstrasse 00<br>
             0000 Musterhausen<br>
             Phone: 000 / 000 00 00<br>
@@ -38,7 +38,7 @@
                 <li><a href='index.php'>Home</a></li>
                 <li><a href='index.php?page=treatment'>Behandlungen</a></li>
                 <li><a href='index.php?page=prices'>Preise</a></li>
-                <li><a href='index.php?page=praxis'>Preise</a></li>
+                <li><a href='index.php?page=praxis'>Praxis</a></li>
                 <li><a href='index.php?page=about'>Über mich</a></li>
                 <li><a href='index.php?page=contacts'>Kontakt</a></li>
                 <li><a href='index.php?page=links'>Links</a></li>
