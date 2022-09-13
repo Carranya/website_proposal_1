@@ -19,14 +19,12 @@
         <div class='head-center'>
             <h1 style='color: white'>Karma Praxis</h1>
             <h2 style='color: white'>Meditationen und Massagen</h2>
+            
         </div>
 
         <div class='head-right'>
-            <p style='color: white'>Muster Musterfrau<br>
-            Musterstrasse 00<br>
-            0000 Musterhausen<br>
-            Phone: 000 / 000 00 00<br>
-            E-Mail: muster.musterfrau@musterpraxis.ch</p>
+                <?php include "parts/addres.html"; ?>
+                <p style='color: white; font-size: 0.6em'>Version 1.0 / Karin Giang 2022</p>
         </div>
     </div>
     
@@ -41,12 +39,11 @@
                 <li><a href='index.php?page=praxis'>Praxis</a></li>
                 <li><a href='index.php?page=about'>Über mich</a></li>
                 <li><a href='index.php?page=contacts'>Kontakt / Öffnungszeiten</a></li>
-                <li><a href='index.php?page=links'>Anfahrt</a></li>
+                <li><a href='index.php?page=location'>Anfahrt</a></li>
             </ul>
         </div> 
     </div>
 
- 
     <div class='content'>
         <?php
         if(isset($_GET['page'])) {
@@ -57,6 +54,9 @@
 
         ?>
     </div>
+
+ 
+
   
 </body>
 </html>
