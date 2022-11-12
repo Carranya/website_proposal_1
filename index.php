@@ -24,7 +24,6 @@
 
         <div class='head-right'>
                 <?php include "parts/addres.html"; ?>
-                <p style='color: white; font-size: 0.6em'>Version 1.0 / Karin Giang 2022</p>
         </div>
     </div>
     
